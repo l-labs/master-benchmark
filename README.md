@@ -1,7 +1,7 @@
 # master-benchmark
 
 A 135-op cross-runtime benchmark for the L database.  Every op is written in
-the shared 2.5-era q dialect, so the same script runs unmodified on any other
+the shared q dialect, so the same script runs unmodified on any other
 engine that speaks it (the "reference engine"), giving a direct head-to-head.
 
 ## Quickstart
