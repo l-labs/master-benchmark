@@ -6,7 +6,7 @@
 /   l master_compare.q > l.csv           (L)
 /   <ref> master_compare.q > ref.csv     (reference engine)
 /   python3 compare.py l.csv ref.csv
-/ Shared 2.5-era q dialect only.  Mac ms-coarse timer -> reps tuned so op
+/ Shared 4.0-era q dialect only.  Mac ms-coarse timer -> reps tuned so op
 / totals are tens-to-hundreds of ms; treat <10ms totals as noise.
 
 N:1000000                                                                       / vector size
